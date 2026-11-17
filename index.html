@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BillarLab10.easy · La física de las tres bandas</title>
+<meta name="description" content="Simulador físico del billar a tres bandas: rodadura, efecto, bandas, choques y sistemas de diamantes, en una lección interactiva.">
+<meta name="theme-color" content="#f6f0f3">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<link rel="stylesheet" href="css/app.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="js/sistemas.data.js"></script>
+<script defer src="js/fisica.js"></script>
+<script defer src="js/app.js"></script>
+</head>
+<body>
+<canvas id="mesa" aria-label="Mesa de billar simulada"></canvas>
+
+<div class="hud-top">
+  <a class="brand" href="#cap=0">BillarLab<span>10.easy</span></a>
+  <nav class="steps" id="pasos" aria-label="Capítulos"></nav>
+</div>
+
+<article class="card" id="tarjeta" aria-live="polite">
+  <button class="card__toggle" id="plegar" type="button" aria-expanded="true" aria-label="Plegar la lección">▾</button>
+  <p class="card__kicker"><b id="num">00</b> <span id="kicker"></span></p>
+  <h1 id="titulo"></h1>
+  <p class="card__idea" id="idea"></p>
+  <div class="card__formula" id="formula"></div>
+  <div class="card__extra" id="extra"></div>
+  <dl class="card__data" id="datos"></dl>
+</article>
+
+<div class="dock" id="dock">
+  <button class="dock__nav" id="prev" type="button" aria-label="Capítulo anterior">‹</button>
+  <div class="dock__controls" id="controles"></div>
+  <button class="dock__nav dock__nav--next" id="next" type="button" aria-label="Capítulo siguiente">›</button>
+</div>
+
+<div class="toasts" id="avisos" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "title": "BillarLab10.easy: sistemas de diamantes del billar a tres bandas, datos verificados y comparación con la física de la reflexión",
+  "upload_type": "software",
+  "description": "Nueve sistemas de diamantes del billar a tres bandas (LCL, CLC, 3-6-9, CLC efecto cero, Cajones-Cabañas, Efecto contrario LCL y CLC, Pasa bola, Plus) codificados como datos verificados, con un paquete Python probado, una web pedagógica interactiva (KaTeX, SVG) y la comparación de cada predicción con la reflexión especular ideal. Incluye las figuras originales de 2014-2015, erratas corregidas, plan de investigación y bibliografía con DOI verificados.",
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "language": "spa",
+  "creators": [
+    {
+      "name": "Pabón Riaño, Dudbil Olvasada",
+      "orcid": "0000-0001-7239-3497"
+    }
+  ],
+  "keywords": [
+    "three-cushion billiards",
+    "diamond system",
+    "billar a tres bandas",
+    "law of reflection",
+    "rigid body dynamics",
+    "physics education",
+    "geometry education"
+  ],
+  "related_identifiers": [
+    { "identifier": "10.1046/j.1460-2687.2002.00095.x", "relation": "references", "scheme": "doi" },
+    { "identifier": "10.1243/09544062jmes1964", "relation": "references", "scheme": "doi" },
+    { "identifier": "https://basesdebillartresbandas.blogspot.com/", "relation": "isDerivedFrom", "scheme": "url" }
+  ]
+}

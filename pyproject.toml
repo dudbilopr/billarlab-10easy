@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "billarlab"
+version = "0.1.0"
+description = "Sistemas de diamantes del billar a tres bandas: fórmulas, escalas y comparación con la física de la reflexión."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Dudbil Olvasada Pabón Riaño" }]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["billarlab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

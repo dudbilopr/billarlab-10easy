@@ -1,0 +1,35 @@
+NOTICE — BillarLab10.easy
+Copyright (c) 2014-2026 Dudbil Olvasada Pabón Riaño (ORCID: 0000-0001-7239-3497)
+
+Licensing summary:
+1. Source code (billarlab/, js/, scripts/, tests/, index.html, css/app.css):
+   Apache License 2.0 (see LICENSE).
+2. Texts, data and figures (docs/, data/, investigacion/, fuente_blog_2015/):
+   Creative Commons Attribution 4.0 International (CC BY 4.0).
+   The original figures and posts were published by the author on the blog
+   "Bases de billar tres bandas" (basesdebillartresbandas.blogspot.com, 2014-2015).
+3. css/tokens.css: 10.Easy design tokens by the same author (Apache-2.0).
+
+About the diamond systems:
+The diamond systems themselves (LCL/corner, CLC, 3-6-9, Plus, etc.) are part of
+the playing tradition of three-cushion billiards. This project documents the
+author's formulation of them, corrects errata, and tests them against physics.
+No claim is made about who invented each system.
+
+Third-party code adapted:
+- js/fisica.js, function chocarBanda: ball–cushion collision model of
+  Han, I. (2005), "Dynamics in carom and three cushion billiards",
+  J. Mech. Sci. Technol. 19(4), 976-984, doi:10.1007/bf02919180,
+  ported to JavaScript from the implementation in Pooltool
+  (pooltool/physics/resolve/ball_cushion/han_2005/model.py),
+  Copyright (c) Evan Kiefl, Apache License 2.0, https://github.com/ekiefl/pooltool
+  (Kiefl, E. (2024). JOSS 9(101), 7301, doi:10.21105/joss.07301).
+- Default carom table and ball parameters (table size, cushion height 37 mm,
+  e_c = 0.85, f_c = 0.15, u_s = 0.2, u_r = 0.01, u_sp, e_b = 0.95) taken from
+  Pooltool's BilliardTableSpecs and BILLIARD_GENERIC ball parameters.
+
+Third-party resources loaded at runtime (not redistributed):
+- KaTeX 0.16.9 (MIT) from cdn.jsdelivr.net.
+- Google Fonts: Sora, IBM Plex Sans, IBM Plex Mono (SIL Open Font License).
+
+Scientific references are listed with verified DOIs in investigacion/BIBLIOGRAFIA.md.

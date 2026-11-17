@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Material de terceros con derechos de autor (PDF de artículos): solo local
+investigacion/PDF/
+# Resultados brutos de la búsqueda (incluyen resúmenes de terceros): solo local
+investigacion/busqueda_fisica/resultados.*
+investigacion/busqueda_fisica/tamiz.txt
+investigacion/seleccion.json
+investigacion/verificacion.txt
+
+# Copias crudas del blog (las figuras publicadas están en docs/figuras_2015)
+fuente_blog_2015/raw/
+fuente_blog_2015/img/
+fuente_blog_2015/entradas/imagenes.tsv
+
+# Notas privadas
+CLAUDE.md
+.obsidian/
