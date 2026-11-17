@@ -3,6 +3,7 @@ message: "Si usas BillarLab10.easy en docencia o investigación, por favor cíta
 type: software
 title: "BillarLab10.easy: sistemas de diamantes del billar a tres bandas, datos verificados y comparación con la física de la reflexión"
 version: "0.1.0"
+doi: "10.5281/zenodo.24325605"
 date-released: "2026-11-17"
 license: Apache-2.0
 repository-code: "https://github.com/dudbilopr/billarlab-10easy"

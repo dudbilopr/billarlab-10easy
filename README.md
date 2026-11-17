@@ -1,5 +1,7 @@
 # BillarLab10.easy
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24325605.svg)](https://doi.org/10.5281/zenodo.24325605) · **App en línea:** https://dudbilopr.github.io/billarlab-10easy/
+
 **Los sistemas de diamantes del billar a tres bandas, puestos a prueba con física.**
 
 Los jugadores de tres bandas calculan el tiro con una resta: *ataque = salida − llegada*. BillarLab10.easy documenta nueve de esos sistemas, los convierte en datos y código verificados, y compara cada predicción con la geometría pura de la reflexión. La diferencia entre las dos es la física del efecto, la fricción y la banda.
@@ -58,7 +60,9 @@ Con reflexión especular ideal (nivel 0), los dos ejemplos del sistema **3-6-9**
 
 ## Cómo citar
 
-Ver `CITATION.cff`. El DOI de Zenodo se asigna al publicar la primera versión.
+Pabón Riaño, D. O. (2026). *BillarLab10.easy: sistemas de diamantes del billar a tres bandas, datos verificados y comparación con la física de la reflexión* (v0.1.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24325605
+
+DOI de todas las versiones: 10.5281/zenodo.24325605 · DOI de la v0.1.0: 10.5281/zenodo.24325606. Ver `CITATION.cff`.
 
 ## Licencias
 
